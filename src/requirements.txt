@@ -1,0 +1,23 @@
+# Dépendances du composant TTS — Feogasy
+# Installation recommandée dans un environnement virtuel dédié (Python >= 3.10, < 3.13)
+
+voxcpm==2.0.3
+torch>=2.5.0
+torchaudio>=2.5.0
+torchcodec
+soundfile
+modelscope
+huggingface-hub
+transformers>=4.36.2
+einops
+librosa
+safetensors
+
+# Installation PyTorch en CPU (dev local sans GPU) :
+#   pip install torch torchaudio torchcodec --index-url https://download.pytorch.org/whl/cpu
+#   pip install voxcpm --no-deps
+#   pip install -r src/requirements.txt --no-deps  (si conflits de résolution)
+#
+# Installation GPU (serveur RTX 4090) :
+#   pip install torch torchaudio torchcodec  (version CUDA par défaut)
+#   pip install voxcpm
