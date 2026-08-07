@@ -1,0 +1,25 @@
+file_path,filename,status,format,sample_rate,channels,duration_s,clipping,silence,transcript,duplicate,warnings,errors
+audio\invalid\clipped.wav,clipped.wav,FAIL,WAV,16000,Mono,5.0,Yes,No,Yes,No,,Clipping detected (peak=1.000).
+audio\invalid\duplicate.wav,duplicate.wav,FAIL,WAV,16000,Mono,5.0,No,No,Yes,Yes,,Duplicate of 'valid_01.wav'.
+audio\invalid\long.wav,long.wav,FAIL,WAV,16000,Mono,35.0,No,No,Yes,No,,Too long (35.00s). Maximum: 30.00s.
+audio\invalid\short.wav,short.wav,FAIL,WAV,16000,Mono,0.5,No,No,Yes,No,,Too short (0.50s). Minimum: 1.00s.
+audio\invalid\silence.wav,silence.wav,FAIL,WAV,16000,Mono,6.0,No,Yes,Yes,No,,Trailing silence: 2.00s.
+audio\invalid\stereo.wav,stereo.wav,FAIL,WAV,16000,Stereo,5.0,No,No,Yes,No,,"Expected 1 channel(s), got 2."
+audio\invalid\wrong_format.mp3,wrong_format.mp3,FAIL,MP3,16000,Mono,5.0,No,No,Yes,No,,Unsupported format '.mp3'. Supported: .wav
+audio\ref\ref_01.wav,ref_01.wav,FAIL,WAV,16000,Mono,4.0,No,No,No,No,,
+audio\valid\001_ok_reference.wav,001_ok_reference.wav,FAIL,WAV,24000,Mono,3.0,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; "
+audio\valid\002_bad_samplerate_16k.wav,002_bad_samplerate_16k.wav,FAIL,WAV,16000,Mono,3.0,No,No,No,No,,
+audio\valid\003_bad_channels_stereo.wav,003_bad_channels_stereo.wav,FAIL,WAV,24000,Stereo,3.0,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; Expected 1 channel(s), got 2.; "
+audio\valid\004_too_short.wav,004_too_short.wav,FAIL,WAV,24000,Mono,0.2,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; Too short (0.20s). Minimum: 1.00s.; "
+audio\valid\005_too_long.wav,005_too_long.wav,FAIL,WAV,24000,Mono,22.0,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; "
+audio\valid\006_clipping.wav,006_clipping.wav,FAIL,WAV,24000,Mono,2.5,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; "
+audio\valid\007_too_quiet.wav,007_too_quiet.wav,FAIL,WAV,24000,Mono,2.5,No,Yes,No,No,,"Expected 16000 Hz, got 24000 Hz.; Audio contains only silence.; "
+audio\valid\008_leading_trailing_silence.wav,008_leading_trailing_silence.wav,FAIL,WAV,24000,Mono,5.0,No,Yes,No,No,,"Expected 16000 Hz, got 24000 Hz.; Trailing silence: 1.50s.; "
+audio\valid\009_full_silence.wav,009_full_silence.wav,FAIL,WAV,24000,Mono,3.0,No,Yes,No,No,,"Expected 16000 Hz, got 24000 Hz.; Audio contains only silence.; "
+audio\valid\010_original_for_duplicate.wav,010_original_for_duplicate.wav,FAIL,WAV,24000,Mono,3.0,No,No,No,Yes,,"Expected 16000 Hz, got 24000 Hz.; ; Duplicate of '001_ok_reference.wav'."
+audio\valid\011_exact_duplicate.wav,011_exact_duplicate.wav,FAIL,WAV,24000,Mono,3.0,No,No,No,Yes,,"Expected 16000 Hz, got 24000 Hz.; ; Duplicate of '001_ok_reference.wav'."
+audio\valid\012_missing_transcript.wav,012_missing_transcript.wav,FAIL,WAV,24000,Mono,2.0,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; "
+audio\valid\013_empty_transcript.wav,013_empty_transcript.wav,FAIL,WAV,24000,Mono,2.0,No,No,No,Yes,,"Expected 16000 Hz, got 24000 Hz.; ; Duplicate of '012_missing_transcript.wav'."
+audio\valid\014_bad_bitdepth_32f.wav,014_bad_bitdepth_32f.wav,FAIL,WAV,24000,Mono,2.5,No,No,No,No,,"Expected 16000 Hz, got 24000 Hz.; "
+audio\valid\valid_01.wav,valid_01.wav,PASS,WAV,16000,Mono,5.0,No,No,Yes,No,,
+audio\valid\valid_02.wav,valid_02.wav,PASS,WAV,16000,Mono,6.0,No,No,Yes,No,,

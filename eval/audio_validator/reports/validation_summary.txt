@@ -1,0 +1,33 @@
+=============================================
+AUDIO VALIDATION SUMMARY
+=============================================
+
+Total files : 24
+Passed      : 2
+Failed      : 22
+Pass rate   : 8.33%
+
+---------------------------------------------
+Failure reasons
+---------------------------------------------
+Clipping detected (peak=1.000).1
+Duplicate of 'valid_01.wav'.  1
+Too long (35.00s). Maximum: 30.00s.1
+Too short (0.50s). Minimum: 1.00s.1
+Trailing silence: 2.00s.      1
+Expected 1 channel(s), got 2. 2
+Unsupported format '.mp3'. Supported: .wav1
+Expected 16000 Hz, got 24000 Hz.13
+                              13
+Too short (0.20s). Minimum: 1.00s.1
+Audio contains only silence.  2
+Trailing silence: 1.50s.      1
+Duplicate of '001_ok_reference.wav'.2
+Duplicate of '012_missing_transcript.wav'.1
+
+---------------------------------------------
+Warning reasons
+---------------------------------------------
+None
+
+=============================================

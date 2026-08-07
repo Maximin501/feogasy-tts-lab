@@ -1,0 +1,10 @@
+{"audio": "audio/valid/valid_01.wav", "text": "Bonjour tout le monde."}
+{"audio": "audio/valid/valid_02.wav", "text": "Ceci est un test.", "ref_audio": "audio/ref/ref_01.wav"}
+{"audio": "audio/invalid/short.wav", "text": "Salut"}
+{"audio": "audio/invalid/long.wav", "text": "Phrase longue."}
+{"audio": "audio/invalid/stereo.wav", "text": "Audio stereo."}
+{"audio": "audio/invalid/silence.wav", "text": "Silence final."}
+{"audio": "audio/invalid/clipped.wav", "text": "Signal saturé."}
+{"audio": "audio/invalid/duplicate.wav", "text": "Doublon."}
+{"audio": "audio/invalid/missing.wav", "text": "Fichier absent."}
+{"audio": "audio/invalid/wrong_format.mp3", "text": "Mauvais format."}
