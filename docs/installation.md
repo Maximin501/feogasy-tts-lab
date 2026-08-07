@@ -113,7 +113,7 @@ python scripts/train_voxcpm_finetune.py \
 - **Couverture linguistique :** seules 30 langues sont officiellement supportées ; les langues absentes de cette liste (dont le malgache) nécessitent des tests directs ou un fine-tuning.
 - **Déploiement en production :** l'éditeur recommande des tests et une évaluation de sécurité approfondis avant tout usage commercial.
 
-## État actuel de l'installation (à compléter par Mahefa)
+## État actuel de l'installation
 
 - [ ] Installation de base réussie : oui / non
 - [ ] Version CUDA locale confirmée : ___
