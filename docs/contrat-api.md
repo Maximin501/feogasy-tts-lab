@@ -18,6 +18,12 @@ Flux audio marque comme synthetique, avec la version du modele indiquee.
 ## Note importante — alignement avec l'API reelle VoxCPM2
 
 La signature reelle de `generate()` (voxcpm 2.0.3, verifiee via `inspect.signature`) est :
+generate(text: str, prompt_wav_path: str = None, prompt_text: str = None,
+reference_wav_path: str = None, cfg_value: float = 2.0,
+inference_timesteps: int = 10, min_len: int = 2, max_len: int = 4096,
+normalize: bool = False, denoise: bool = False, retry_badcase: bool = True,
+retry_badcase_max_times: int = 3, retry_badcase_ratio_threshold: float = 6.0,
+streaming: bool = False)
 Consequences sur le contrat :
 - Pas de `speaker_id` catalogue : le clonage se fait via un fichier audio de reference
   (`reference_wav_path`) ou via clonage integral (`prompt_wav_path` + `prompt_text`).
