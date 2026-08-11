@@ -41,7 +41,7 @@ de reference stable pour toute comparaison avant/apres modification du modele.
 
 | Version | Date | Contenu | Valide par | Commentaire |
 |---|---|---|---|---|
-| v1 | (a completer) | reference_samples (5 echantillons) + audio_validator/dataset (24 fichiers) | Mahefa + David | Premiere version, voix 100% synthetique (Voice Design), aucune donnee sensible |
+| v1 | 07/08/2026 | reference_samples (5 echantillons) + audio_validator/dataset (24 fichiers) | Mahefa + David | Premiere version, voix 100% synthetique (Voice Design), aucune donnee sensible |
 
 ## Verification avant chaque gel (checklist)
 
