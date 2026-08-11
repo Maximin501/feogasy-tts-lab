@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ref_001_simple",
+    "audio": "ref_001_simple.wav",
+    "text": "(voix neutre et posee) Bonjour, ceci est un test de synthese vocale.",
+    "description": "Phrase courte, cas simple",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  },
+  {
+    "id": "ref_002_longue",
+    "audio": "ref_002_longue.wav",
+    "text": "(voix neutre et posee) Le prototype vocal Feogasy doit etre capable de synthetiser des phrases plus longues et complexes, avec plusieurs propositions et une intonation naturelle tout au long de l'enonce.",
+    "description": "Phrase longue, test de stabilite",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  },
+  {
+    "id": "ref_003_chiffres",
+    "audio": "ref_003_chiffres.wav",
+    "text": "(voix neutre et posee) Le rendez-vous est prevu le 7 aout 2026 a 10 heures 30, pour une duree de 30 minutes.",
+    "description": "Chiffres et dates",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  },
+  {
+    "id": "ref_004_noms_propres",
+    "audio": "ref_004_noms_propres.wav",
+    "text": "(voix neutre et posee) Mahefa et David travaillent sur le projet Feogasy avec le modele VoxCPM2.",
+    "description": "Noms propres",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  },
+  {
+    "id": "ref_005_expressive",
+    "audio": "ref_005_expressive.wav",
+    "text": "(voix enthousiaste et joyeuse) Excellente nouvelle, le test fonctionne parfaitement !",
+    "description": "Test Voice Design expressif",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  }
+]
