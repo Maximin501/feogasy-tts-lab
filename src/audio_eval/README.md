@@ -69,10 +69,7 @@ C'est le mode à privilégier avec le bouton **Run** de PyCharm.
 ### Un seul checkpoint
 
 ```bash
-python main.py \
-    --checkpoint "voxcpm2_ckpt120:./audios/ckpt120" \
-    --evaluateur "Rina" \
-    --output resultats_ckpt120.csv
+python main.py --checkpoint "voxcpm2_baseline:../../EVAL/reference_samples" --evaluateur "David" --output "../../EVAL/reports/resultats_baseline.csv"
 ```
 
 ### Comparaison en aveugle de deux checkpoints

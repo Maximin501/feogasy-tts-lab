@@ -1,23 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-grille.py
-=========
-
-Logique métier de la grille d'écoute VoxCPM2 (Grille_ecoute_VoxCPM2_v1.md).
-
-Responsabilités de ce module :
-  - définir la structure d'un échantillon à évaluer ;
-  - construire la liste des échantillons (scan des dossiers, manifeste,
-    mode aveugle) ;
-  - poser les questions de la grille avec saisie validée ;
-  - lire/écrire le CSV de résultats, avec sauvegarde immédiate ligne par
-    ligne et reprise de session.
-
-Ce module s'appuie sur audio_io.py pour tout ce qui touche à la lecture
-audio et au contrôle technique, mais ne gère lui-même aucune E/S audio bas
-niveau.
-"""
 
 from __future__ import annotations
 
