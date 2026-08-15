@@ -1,20 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-audio_io.py
-===========
-
-Module d'entrées/sorties audio pour la grille d'écoute VoxCPM2.
-
-Responsabilités de ce module (et uniquement celles-ci) :
-  - lire un fichier .wav de façon bloquante (attendre la fin de la lecture) ;
-  - effectuer les vérifications techniques automatiques d'un fichier .wav
-    (durée, fréquence d'échantillonnage, canaux, silence, saturation) selon
-    les seuils définis dans Exigences_jeu_de_donnees_VoxCPM2.md.
-
-Ce module ne contient aucune logique de saisie utilisateur ni de gestion
-de la grille/CSV : voir grille.py pour cela.
-"""
 
 from __future__ import annotations
 
