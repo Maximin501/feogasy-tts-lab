@@ -48,5 +48,25 @@
     "source": "voxcpm2_voice_design",
     "voice_authorized": true,
     "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  },
+  {
+    "id": "ref_006_malagasy",
+    "audio": "ref_006_malagasy.wav",
+    "text": "(voix neutre et posee) Salama, Andrana voalohany.",
+    "description": "Phrase malagasy, cas simple",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
+  },
+  {
+    "id": "ref_007_mixte",
+    "audio": "ref_007_mixte.wav",
+    "text": "(voix neutre et posee) Bonjour tous le monde, ity ny teste voalohany amin'ny langage miste malagasy sy français",
+    "description": "Phrase mixte",
+    "sample_rate": 48000,
+    "source": "voxcpm2_voice_design",
+    "voice_authorized": true,
+    "voice_note": "Voix synthetique generee par Voice Design, aucune personne reelle"
   }
 ]
